@@ -1,3 +1,46 @@
-.ecole {
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-style: normal
+}
+
+.ecole, .etab, .ville {
     display: block;
 }
+
+address {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    background-color: dimgrey;
+    align-items: flex-start;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+#zonePrincipale {
+    display: flex;
+    justify-content: center;
+}
+
+#zonePrincipale section {
+    flex: 1 300px;
+    margin: 50px;
+    margin-left: 5%;
+    padding: 20px;
+
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+
+}
+
