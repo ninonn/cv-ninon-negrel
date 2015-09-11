@@ -4,7 +4,7 @@
     border: 0;
     box-sizing: border-box;
     font-style: normal;
-    font-family: Arial, cursive;
+    font-family: Lobster;
 }
 
 .ecole, .etab, .ville {
@@ -17,6 +17,7 @@ address {
     justify-content: space-between;
     background-color: dimgrey;
     color: white;
+    padding: 25px;
 
 }
 
@@ -35,14 +36,14 @@ h1 {
     margin-left: 40%;
     margin-right: 40%;
     text-align: center;
-    background-color: darkorange;
+    background-color: #FF7F50;
 }
 
 h2 {
     margin-top: 20px;
     margin-bottom: 20px;
     align-items: center;
-    border-bottom: solid darkorange 2px;
+    border-bottom: solid #FF7F50 2px;
 }
 
 h3, h4 {
@@ -96,6 +97,13 @@ dd {
     margin-bottom: 20px;
 }
 
+.niveau abbr {
+    color: #FF7F50;
+    font-size: 35px;
+    text-decoration: none;
+
+}
+
 h4 {
     clear: left;
 }
@@ -108,5 +116,47 @@ h4 {
     margin-left: 70%;
 }
 
+footer {
+    display: block;
+    background-color: #FF7F50;
+    padding: 20px;
+}
 
+@font-face {
+    font-family: "Flaticon";
+    src: url("flaticon/flaticon.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
 
+address > *:before {
+    font-family: Flaticon;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+address > *:before {
+    display: block;
+    text-align: center;
+    content: "\e00c";
+}
+
+#skills h2:before {
+    font-family: Flaticon;
+    font-size: 30px;
+    font-style: normal;
+    margin-left: -40px;
+    margin-right: 10px;
+    /*vertical-align: bottom;*/
+    position: relative;
+    top: 4px;
+    color: grey;
+    content: "\e002";
+}
+
+#toto h2:before {
+    display: block;
+    text-align: center;
+
+}
