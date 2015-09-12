@@ -131,6 +131,7 @@ footer {
 
 address > *:before {
     font-family: Flaticon;
+    text-align: center;
     font-size: 30px;
     font-style: normal;
     font-weight: bold;
@@ -142,6 +143,9 @@ address > *:before {
     content: "\e00c";
 }
 
+#age address > time:before {
+    content: "\e00c";
+}
 #skills h2:before {
     font-family: Flaticon;
     font-size: 30px;
@@ -152,11 +156,44 @@ address > *:before {
     position: relative;
     top: 4px;
     color: grey;
+    content: "\e005";
+}
+
+#formation h2:before {
+    font-family: Flaticon;
+    font-size: 39px;
+    font-style: normal;
+    margin-left: -40px;
+    margin-right: 10px;
+    /*vertical-align: bottom;*/
+    position: relative;
+    top: 4px;
+    color: grey;
+    content: "\e003";
+}
+
+#xpPro h2:before {
+    font-family: Flaticon;
+    font-size: 39px;
+    font-style: normal;
+    margin-left: -40px;
+    margin-right: 10px;
+    /*vertical-align: bottom;*/
+    position: relative;
+    top: 4px;
+    color: grey;
     content: "\e002";
 }
 
-#toto h2:before {
-    display: block;
-    text-align: center;
-
+#hobbies h2:before {
+    font-family: Flaticon;
+    font-size: 39px;
+    font-style: normal;
+    margin-left: -40px;
+    margin-right: 10px;
+    /*vertical-align: bottom;*/
+    position: relative;
+    top: 4px;
+    color: grey;
+    content: "\e006";
 }
